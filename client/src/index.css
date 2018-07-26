@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.weather-list-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.333%;
+}
+.weather__box{
+  display: flex;
+  align-items: center;
+}
+
+.weather__icon-box{
+  height: 80px;
+  width: 80px
+}
+
+.weather__icon{
+  height: 100%;
+}
+
+.weather--right{
+  margin-left: auto;
+}
+
+.comment-form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.comment{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid rgba(0, 0, 0, .2);
+  margin-top: 16px;
+  padding: 10px;
+}
+
+.comment__icon{
+  margin-left: auto;
+}
